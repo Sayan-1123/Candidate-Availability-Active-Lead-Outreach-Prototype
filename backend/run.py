@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import uvicorn
 from app.main import app
 from app.database import engine, Base, SessionLocal
