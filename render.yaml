@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: candidate-automation-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/run.py
+    envVars:
+      - key: DEMO_MODE
+        value: "true"
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+  - type: web
+    name: candidate-automation-frontend
+    env: static
+    region: oregon
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
