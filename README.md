@@ -5,14 +5,6 @@ An automated AI-powered candidate outreach and interview scheduling solution des
 
 ---
 
-## Live Running Services & Documentation
-- **Frontend Dashboard (React + Vite)**: [http://localhost:5173](http://localhost:5173)
-- **Backend API (FastAPI)**: [http://localhost:8000](http://localhost:8000)
-- **Interactive API Documentation (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Alternative API Documentation (ReDoc)**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
----
-
 ## Key Value Proposition
 - **Automated Outreach & Tracking**: Replaces manual candidate chasing with stateful automation.
 - **Natural Language Parsing**: Uses LLMs exclusively for extraction (Intent, Notice Period, Availability).
