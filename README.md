@@ -5,6 +5,13 @@ An automated AI-powered candidate outreach and interview scheduling solution des
 
 ---
 
+## Live Production Demo Links
+- **Live Frontend Web Application**: [https://candidate-automation-frontend.onrender.com](https://candidate-automation-frontend.onrender.com)
+- **Live Backend REST API**: [https://candidate-automation-backend.onrender.com](https://candidate-automation-backend.onrender.com)
+- **Interactive Swagger Documentation**: [https://candidate-automation-backend.onrender.com/docs](https://candidate-automation-backend.onrender.com/docs)
+
+---
+
 ## Key Value Proposition
 - **Automated Outreach & Tracking**: Replaces manual candidate chasing with stateful automation.
 - **Natural Language Parsing**: Uses LLMs exclusively for extraction (Intent, Notice Period, Availability).
