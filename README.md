@@ -126,31 +126,6 @@ candidate-automation-prototype/
 - Node.js v18+
 - Python 3.10+
 
-### Option A: Local Development
-
-1. **Backend Setup**:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python run.py
-   ```
-   *Backend runs at http://localhost:8000*
-
-2. **Frontend Setup**:
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
-   *Frontend runs at http://localhost:5173*
-
-### Option B: Docker Compose
-```bash
-docker-compose up --build
-```
-
----
-
 ## API Endpoints Reference
 
 | Method | Endpoint | Description |
